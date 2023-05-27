@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pathway+Extreme:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+:root {
+    --main-bg-color: rgba(139, 30, 0, 0.512);
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 0px 20px;
+    border: 2px solid black;
+    border-radius: px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 5px;
+    font-size: 16px;
+    border: solid black 2px;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+}
+.center{
+    text-align: center;
+}
